@@ -13,6 +13,14 @@ const hindiPostsPath = path.join(__dirname, "..", "data", "hi-posts.json");
 
 const posts = JSON.parse(fs.readFileSync(postsPath, "utf-8"));
 
+let existingHindiPosts = [];
+
+if (fs.existsSync(hindiPostsPath)) {
+  existingHindiPosts = JSON.parse(
+    fs.readFileSync(hindiPostsPath, "utf-8")
+  );
+}
+
 async function translatePost(post) {
   const prompt = `
 Translate the following blog post from English to natural, readable Hindi.
@@ -44,14 +52,26 @@ Content: ${post.content}
 
   const text = response.text.trim();
 
-  return JSON.parse(text.replace(/^```json\s*/, "").replace(/\s*```$/, ""));
+  return JSON.parse(
+    text.replace(/^```json\s*/, "").replace(/\s*```$/, "")
+  );
 }
 
 async function main() {
   const translatedPosts = [];
 
   for (const post of posts) {
-    console.log(`Translating: ${post.slug}`);
+    const existingTranslation = existingHindiPosts.find(
+      (translatedPost) => translatedPost.slug === post.slug
+    );
+
+    if (existingTranslation) {
+      console.log(`Using existing translation: ${post.slug}`);
+      translatedPosts.push(existingTranslation);
+      continue;
+    }
+
+    console.log(`Translating new post: ${post.slug}`);
 
     const translatedPost = await translatePost(post);
 

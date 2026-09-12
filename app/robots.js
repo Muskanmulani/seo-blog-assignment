@@ -1,8 +1,7 @@
 export const dynamic = "force-static";
 
 export default function robots() {
-  const baseUrl = "https://your-domain.pages.dev";
-
+ const baseUrl = "https://muskandev.pages.dev";
   return {
     rules: {
       userAgent: "*",

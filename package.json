@@ -4,11 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+     "prebuild": "node scripts/translate.js",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@google/genai": "^2.22.0",
+    "dotenv": "^17.4.2",
     "next": "16.3.5",
     "react": "19.2.8",
     "react-dom": "19.2.8"

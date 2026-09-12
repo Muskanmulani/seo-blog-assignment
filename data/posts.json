@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "future-of-generative-ai",
+    "title": "The Future of Generative AI",
+    "description": "Explore how generative AI is transforming software, creativity, and everyday digital experiences.",
+    "content": "Generative AI is rapidly changing the way people create, work, and interact with technology. From writing and coding to image generation and intelligent assistants, AI systems are becoming part of everyday digital workflows. As these models become more capable, developers are finding new ways to build useful applications around them.",
+    "author": "Muskan",
+    "date": "2026-09-12"
+  },
+  {
+    "slug": "beginner-guide-to-technical-seo",
+    "title": "A Beginner's Guide to Technical SEO",
+    "description": "Learn the basic technical SEO practices that help search engines understand and discover your website.",
+    "content": "Technical SEO focuses on making a website easier for search engines to crawl, understand, and index. Important practices include meaningful page titles, meta descriptions, canonical URLs, sitemaps, robots.txt, structured content, and mobile-friendly pages. These fundamentals can improve how a website is discovered and presented in search results.",
+    "author": "Muskan",
+    "date": "2026-09-11"
+  },
+  {
+    "slug": "how-static-websites-work",
+    "title": "How Static Websites Work",
+    "description": "Understand how static websites are generated and why they can be fast, reliable, and SEO friendly.",
+    "content": "A static website consists of pages that are generated before users request them. With static site generation, the website content is prepared during the build process and the resulting pages can be served quickly to visitors. This approach works particularly well for blogs, documentation sites, and other content that does not change for every individual visitor.",
+    "author": "Muskan",
+    "date": "2026-09-10"
+  },
+  {
+    "slug": "modern-web-development",
+    "title": "Understanding Modern Web Development",
+    "description": "A simple overview of how modern frontend frameworks, APIs, and deployment platforms work together.",
+    "content": "Modern web applications usually combine a frontend framework, backend services, APIs, data sources, and a deployment platform. Frameworks such as Next.js provide routing, rendering strategies, optimization, and other features that help developers build production-ready websites efficiently. Understanding how these pieces connect is an important part of becoming a full-stack developer.",
+    "author": "Muskan",
+    "date": "2026-09-09"
+  },
+  {
+  "slug": "why-ai-seo-matters",
+  "title": "Why AI and SEO Matter for Modern Websites",
+  "description": "Understanding why AI and SEO are becoming important parts of modern web development.",
+  "content": "AI is changing how websites are created, discovered, and optimized. Combining AI-assisted content workflows with strong technical SEO can help developers build websites that are useful for both users and search engines.",
+  "author": "Muskan",
+  "date": "2026-09-12"
+}
+]

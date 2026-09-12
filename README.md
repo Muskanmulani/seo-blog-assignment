@@ -536,15 +536,7 @@ GitHub Actions bridges the gap between the source repository and Cloudflare Page
 
 Google Gemini was used through its API for build-time Hindi translation.
 
-AI assistance was also used during development for:
 
-* debugging implementation issues
-* understanding Next.js static generation
-* improving project structure
-* troubleshooting deployment configuration
-* reviewing SEO implementation
-
-AI-generated code was reviewed, tested locally, and verified through production builds before deployment.
 
 ---
 
@@ -568,7 +560,7 @@ AI-generated code was reviewed, tested locally, and verified through production 
 | Cloudflare Pages         | ✅           |
 | Automatic deployment     | ✅           |
 | Public GitHub repository | ✅           |
-| PDF writeup              | In progress |
+
 
 ---
 
